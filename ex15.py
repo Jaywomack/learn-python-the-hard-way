@@ -22,3 +22,6 @@ txt_again = open(file_again)
 
 # print the file by reading the value of the txt_again variable which is set by the user input
 print(txt_again.read())
+
+txt.close()
+txt_again.close()
